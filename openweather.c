@@ -120,7 +120,7 @@ int main(void) {
     }
 
     const char *api_url = "http://api.openweathermap.org/data/2.5/weather?q=";
-    const char *api_key = "&appid=e6d43eafcf69f246c6180b997c652ea7&units=metric";
+    const char *api_key = "&appid=(********************************)&units=metric"; //Enter your api key in place of (********************************)
 
     char city[50];
     printf("Enter the city name: ");
